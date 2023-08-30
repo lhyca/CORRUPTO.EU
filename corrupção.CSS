@@ -5,18 +5,21 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
+  background: linear-gradient(to bottom, rgb(7, 29, 103) 0%, #09669f 50%, #078c8e 100%);
+
+
 }
 
 header {
-  background-color: rgb(162, 0, 0);
+  
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 1em;
+  padding: 2em;
 }
 
 .site-title {
   font-family: "pacifico", cursive;
-  font-size: 2.5em;
+  font-size: 4em;
   margin: 0;
 }
 
@@ -24,9 +27,10 @@ header {
   max-width: 1000px;
   margin: 0 auto;
   padding: 2em;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(237, 241, 255);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 
 .info-section {
   display: flex;
@@ -40,6 +44,25 @@ header {
   align-items: center;
 }
 
+
+
+
+.image-container {
+    display: flex; 
+}
+
+.image-container img {
+    max-width: 40%; 
+    height: auto;
+}
+
+.info-imagemm{
+  max-width: 40%;
+  height: auto;
+  margin-left: 10%;
+}
+
+
 .info-image img {
   max-width: 100%;
   height: auto;
@@ -50,21 +73,20 @@ header {
 .info-text {
   flex: 2;
   padding: 0 1em;
-}
+
 
 h2 {
-  color: #333;
+  color: rgb(18, 21, 118);
   font-family: "Open Sans", sans-serif;
   font-size: 1.5em;
 }
 
 p {
-  line-height: 1.6;
-}
+  line-height: 1.2;
 
 footer {
   text-align: center;
-  padding: 1em 0;
-  background-color: #333;
-  color: white;
+  padding: 2em 0;
+  color: rgb(255, 255, 255);
+  margin-right: 5px;
 }
